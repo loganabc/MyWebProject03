@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	margin:20px;
+	text-align:center;
+	color:#1a76e7;
+	font-family:'Glyphicons Halflings';
+	font-weight:bold;
+	font-size:50px;
+}
+a:link,a:visited{
+	color:#1a76e7;
+	text-decoration:none;
+}
+a:hover,a:active{
+	color:red;
+}
+form{
+	display:inline-block;
+}
+body{
+	text-align:center;
+	background-color:RGB(239,239,239);
+}
+table{
+	margin:20px auto;
+	font-family:Arial, sans-serif;
+	border-collapse:collapse;
+}
+table th,table td{
+	font-size:20px;
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+}
+table th{
+	font-size:21px;
+	text-align:center;
+	background-color:#A7C942;
+	color:#fff;
+}
+table tr:nth-child(odd){
+	color:#000;
+	background-color:#a8faaa;
+}
